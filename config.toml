@@ -183,37 +183,37 @@ uglyURLs = false
     #     name = "首页"
     #     weight = 1
     #     pre = "internal"
-    #     post = "home"
+    #     post = ""
     [[menu.main]]
         url = "/posts/"
         name = "文章"
         weight = 2
         pre = "internal"
-        post = "archive"
-    [[menu.main]]
-        url = "/categories/"
-        name = "分类"
-        weight = 3
-        pre = "internal"
-        post = "th"
+        post = ""
+    # [[menu.main]]
+    #     url = "/categories/"
+    #     name = "分类"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = ""
     [[menu.main]]
         url = "/tags/"
         name = "标签"
         weight = 4
         pre = "internal"
-        post = "tags"
+        post = ""
     [[menu.main]]
         url = "/about/"
         name = "关于"
         weight = 5
         pre = "internal"
-        post = "user-circle"
+        post = ""
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
-    [[menu.main]]
-        weight = 7
-        identifier = "lang-switcher"
+    # [[menu.main]]
+    #    weight = 7
+    #    identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
     #     identifier = "search"
@@ -1064,7 +1064,7 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
     displayPostShare = true
